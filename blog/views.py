@@ -3,9 +3,10 @@ from django.views.generic import ListView
 from django.http import HttpRequest
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.core.mail import send_mail
+from django.views.decorators.http import require_POST
 
 from blog.models import Post
-from blog.forms import EmailPostForm
+from blog.forms import EmailPostForm, CommentForm
 
 
 def post_list(request: HttpRequest):
@@ -38,8 +39,10 @@ def post_detail(request: HttpRequest, year: int, month: int, day: int, post: str
         publish__month=month,
         publish__day=day,
     )
+    comments = post.comments.filter(active=True)
+    form = CommentForm()
 
-    return render(request, "blog/post/detail.html", {"post": post})
+    return render(request, "blog/post/detail.html", {"post": post, "comments":comments, "form":form})
 
 
 def post_share(request: HttpRequest, post_id: int):
@@ -70,3 +73,26 @@ def post_share(request: HttpRequest, post_id: int):
     return render(
         request, "blog/post/share.html", {"post": post, "form": form, "sent": sent}
     )
+
+
+@require_POST
+def post_comment(request, post_id):
+    post = get_object_or_404(
+        Post,
+        id=post_id,
+        status=Post.Status.PUBLISHED
+    )
+
+    comment = None
+    form = CommentForm(request.POST)
+    
+    if form.is_valid():
+        comment = form.save(commit=False)
+        comment.post = post
+        comment.save()
+    
+    return render(
+            request,
+            "blog/post/comment.html",
+            {"comment": comment, "post":post, "form":form},
+        )
