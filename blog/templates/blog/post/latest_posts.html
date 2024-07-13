@@ -1,9 +1,11 @@
-<ul>
-    {% for post in latest_posts %}
-    <li>
-        <a href="{{ post.get_absolute_url }}">
-            {{ post.title }}
-        </a>
-    </li>
-    {% endfor %}
-</ul>
+<div class="bg-white p-4 rounded shadow">
+    <ul>
+        {% for post in latest_posts %}
+        <li class="border-b border-gray-200">
+            <a href="{{ post.get_absolute_url }}" class="block py-2 px-4 hover:bg-gray-100 rounded">
+                {{ post.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

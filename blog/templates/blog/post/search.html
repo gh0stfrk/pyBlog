@@ -1,34 +1,33 @@
 {% extends 'blog/base.html' %}
 {% load blog_tags %}
-{% block title %}Search {% endblock %}
+{% block title %}Search{% endblock %}
 {% block content %}
-    {% if query %}
-        <h1>Posts containing "{{query}}"</h1>
-        <h3>
-            {% with results.count as total_results %}
-                Found {{ total_results }} result{{ totalresults|pluralize }}
-            {% endwith %}
-        </h3>
-        {% for post in results %}
-            <h4>
-                <a href="{{ post.get_absolute_url}}">
-                    {{ post.title }}
-                </a>
-            </h4>
-            {{ post.body|markdown|truncatewords_html:12}}
-        {% empty %}
-            <p>There are no results for your query </p>  
-        {% endfor %}
-        <p>
-            <a href="{% url 'blog:post_search' %}">
-                Search again
-            </a>
-        </p>  
-    {% else %}
-        <h1>Search for posts</h1>
-        <form method="get">
-            {{ form.as_p}}
-            <input type="submit" value="Search">
-        </form>
-    {% endif %}
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {% if query %}
+            <h1 class="text-3xl font-semibold mb-4">Posts containing "{{ query }}"</h1>
+            <h3 class="text-xl mb-4">
+                {% with results.count as total_results %}
+                    Found {{ total_results }} result{{ total_results|pluralize }}
+                {% endwith %}
+            </h3>
+            {% for post in results %}
+                <div class="mb-6">
+                    <h4 class="text-lg font-semibold">
+                        <a href="{{ post.get_absolute_url }}" class="text-blue-500 hover:text-blue-700">{{ post.title }}</a>
+                    </h4>
+                    <div class="text-gray-600 mb-2">
+                        {{ post.body|markdown|truncatewords_html:12 }}
+                    </div>
+                </div>
+            {% empty %}
+                <p class="text-gray-600">There are no results for your query.</p>
+            {% endfor %}
+            <p class="mt-4">
+                <a href="{% url 'blog:post_search' %}" class="text-blue-500 hover:text-blue-700">Search again</a>
+            </p>
+        {% else %}
+            <h1 class="text-3xl font-semibold mb-4">Search for posts</h1>
+            {% include 'blog/post/includes/search_form.html' %}
+        {% endif %}
+    </div>
 {% endblock %}

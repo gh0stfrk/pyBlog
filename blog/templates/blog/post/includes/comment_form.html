@@ -1,12 +1,50 @@
-<h2>Add a new comment</h2>
-<form action="{% url 'blog:post_comment' post.id %}" method="post">
-    <div class="left">
-        {{ form.name.as_field_group }}
-    </div>
-    <div class="left">
-        {{ form.email.as_field_group }}
-    </div>
-    {{ form.body.as_field_group }}
+<h2 class="text-2xl font-semibold text-gray-900 mb-4">Add a new comment</h2>
+<form action="{% url 'blog:post_comment' post.id %}" method="post" class="space-y-6">
     {% csrf_token %}
-    <p><input type="submit" value="Add comment"></p>
+    <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+        <div>
+            {{ form.name }}
+            {% if form.name.errors %}
+                <p class="text-red-500 text-xs italic mt-2">{{ form.name.errors }}</p>
+            {% endif %}
+        </div>
+        <div>
+            {{ form.email }}
+            {% if form.email.errors %}
+                <p class="text-red-500 text-xs italic mt-2">{{ form.email.errors }}</p>
+            {% endif %}
+        </div>
+    </div>
+    <div>
+        {{ form.body }}
+        {% if form.body.errors %}
+            <p class="text-red-500 text-xs italic mt-2">{{ form.body.errors }}</p>
+        {% endif %}
+    </div>
+    <div>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-full sm:w-auto">
+            Add comment
+        </button>
+    </div>
 </form>
+
+<style>
+    .form-input,
+    .form-textarea {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #d1d5db;
+        border-radius: 0.375rem;
+        background-color: #fff;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+        outline: none;
+    }
+</style>

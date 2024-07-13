@@ -3,21 +3,43 @@
 {% block title %}Share a post {% endblock %}
 
 {% block content %}
-{% if sent %}
-<h1>
-    Email successfully sent
-</h1>
-<p>
-    "{{ post.title }}" was successfully sent to {{ form.cleaned_data.to }}
-</p>
-<a href="{{ post.get_absolute_url}}">Back to post</a>
-
-{% else %}
-<h1>Share {{ post.title }} by email</h1>
-<form method="post">
-    {{ form.as_p }}
-    {% csrf_token %}
-    <input type="submit" value="Send e-mail">
-</form>
-{% endif %}
+<div class="max-w-2xl mx-auto bg-white p-6">
+    {% if sent %}
+    <h1 class="text-2xl font-semibold text-green-600 mb-4">Email successfully sent</h1>
+    <p class="text-gray-800 mb-4">"{{ post.title }}" was successfully sent to {{ form.cleaned_data.to }}</p>
+    <a href="{{ post.get_absolute_url }}" class="text-blue-500 hover:underline">Back to post</a>
+    {% else %}
+    <h1 class="text-2xl font-semibold text-gray-800 mb-4">Share "{{ post.title }}" by email</h1>
+    <form method="post" class="space-y-4">
+        {% csrf_token %}
+        <div>
+            <label for="id_name" class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" name="name" id="id_name" placeholder="Enter your name"
+                class="mt-1 block w-full px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+        </div>
+        <div>
+            <label for="id_email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" name="email" id="id_email" placeholder="Enter your email address"
+                class="mt-1 block w-full px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+        </div>
+        <div>
+            <label for="id_to" class="block text-sm font-medium text-gray-700">Recipient's Email</label>
+            <input type="email" name="to" id="id_to" placeholder="Enter recipient's email address"
+                class="mt-1 block w-full px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+        </div>
+        <div>
+            <label for="id_comments" class="block text-sm font-medium text-gray-700">Comments</label>
+            <textarea name="comments" id="id_comments" rows="3"
+                placeholder="Enter your comments or message"
+                class="mt-1 block w-full px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"></textarea>
+        </div>
+        <div>
+            <button type="submit"
+                class="w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 text-white text-sm font-medium rounded-md">
+                Send Email
+            </button>
+        </div>
+    </form>
+    {% endif %}
+</div>
 {% endblock %}

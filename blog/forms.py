@@ -14,6 +14,20 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ['name', 'email', 'body']
+        widgets = {
+            'name': forms.TextInput(attrs={
+                'class': 'form-input mt-1 block w-full rounded-lg',
+                'placeholder': 'Your name'
+            }),
+            'email': forms.EmailInput(attrs={
+                'class': 'form-input mt-1 block w-full rounded-lg',
+                'placeholder': 'Your email'
+            }),
+            'body': forms.Textarea(attrs={
+                'class': 'form-textarea mt-1 block w-full rounded-lg',
+                'placeholder': 'Your comment'
+            }),
+        }
         
 
 class SearchForm(forms.Form):

@@ -31,7 +31,7 @@ h2 {
     width:30%;
     padding:30px;
     background:#efefef; 
-    height:100%;
+    height:100vh;
 }
 
 p.date { 
@@ -96,20 +96,3 @@ input[type=submit] {
     font-size:12px;
     color:#666;
 }
-
-/* Media Queries */
-
-/* Tablet and smaller screens */
-/* @media (max-width: 768px) {
-    #content, #sidebar {
-        float: none;
-        width: 100%;
-    }
-} */
-
-/* Mobile screens */
-/* @media (max-width: 480px) {
-    input, textarea, label {
-        float: none;
-    }
-} */

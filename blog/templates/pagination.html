@@ -1,13 +1,15 @@
-<div class="pagination">
+<div class="pagination flex gap-2 items-center mt-8 justify-center">
     <span class="step-links">
         {% if page.has_previous %}
-        <a href="?page={{ page.previous_page_number}}">Previous</a>
+        <a href="?page={{ page.previous_page_number }}" class="text-blue-500 hover:text-blue-700">Previous</a>
         {% endif %}
-        <span class="current">
-            Page {{ page.number }} of {{ page.paginator.num_pages}}.
-        </span>
+    </span>
+    <span class="current text-gray-700">
+        Page {{ page.number }} of {{ page.paginator.num_pages }}
+    </span>
+    <span class="step-links">
         {% if page.has_next %}
-        <a href="?page={{ page.next_page_number}}">Next</a>
+        <a href="?page={{ page.next_page_number }}" class="text-blue-500 hover:text-blue-700">Next</a>
         {% endif %}
     </span>
 </div>
