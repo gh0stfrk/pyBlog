@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{% endblock %}</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <style>
         /* Additional custom styles can be added here if needed */
     </style>
@@ -29,10 +31,15 @@
                 I've written {% total_posts %} posts so far.
             </p>
             {% include 'blog/post/includes/search_form.html' %}
-            <a href="{% url 'blog:post_feed' %}" class="block text-blue-500 hover:text-blue-700 mb-6">Subscribe to RSS Feed</a>
+            <a href="{% url 'blog:post_feed' %}" class="flex items-center text-blue-500 hover:text-blue-700 mb-2">
+                <span class="mr-2">Subscribe to RSS Feed</span>
+                <i class="fas fa-rss-square"></i>
+            </a>
+            
+            
         
 
-            <div class="bg-white p-4 rounded shadow">
+            <div class="hidden md:block bg-white p-4 rounded shadow">
                 <h3 class="text-lg font-semibold mb-2">Latest posts</h3>
                 <ul class="mb-4">
                     {% show_latest_posts 3 %}
@@ -47,7 +54,7 @@
             </div>
 
 
-            <div class="bg-white p-4 rounded shadow">
+            <div class="hidden md:block p-4 rounded shadow">
                 <h3 class="text-lg font-semibold mb-2">Most commented posts</h3>
                 <ul>
                     {% get_most_commented_posts as most_commented_posts %}
@@ -75,7 +82,32 @@
 
     <!-- Footer -->
     <footer class="bg-blue-500 text-white text-center p-4">
-        &copy; {{ year }} Your Blog Name. All rights reserved.
+        <div class="flex justify-center space-x-4 mb-4">
+            <!-- GitHub Link -->
+            <a href="https://github.com/your-github-account" target="_blank" rel="noopener noreferrer"
+               class="text-white hover:text-gray-200">
+                <i class="fab fa-github-square fa-2x"></i>
+            </a>
+    
+            <!-- Twitter Link -->
+            <a href="https://twitter.com/your-twitter-account" target="_blank" rel="noopener noreferrer"
+               class="text-white hover:text-gray-200">
+                <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+    
+            <!-- Gmail Link -->
+            <a href="mailto:your-email@gmail.com" class="text-white hover:text-gray-200">
+                <i class="fas fa-envelope-square fa-2x"></i>
+            </a>
+
+            <a href="{% url 'blog:post_feed' %}" class="text-white hover:text-gray-200">
+                <i class="fas fa-rss-square fa-2x"></i>
+            </a>
+        </div>
+
+    
+        <p>&copy; {{ year }} Salman Sayyed.</p>
     </footer>
+    
 </body>
 </html>
