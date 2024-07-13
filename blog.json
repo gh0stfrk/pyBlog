@@ -1,0 +1,1350 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-07-10T15:49:34.649Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "You can now protect your high-risk Google account with just your phone",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-07-10T15:57:02.718Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "DOJ seizes ‘bot farm’ operated by the Russian government",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-07-10T15:59:17.084Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "OpenAI and Arianna Huffington are working together on an ‘AI health coach’",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-07-10T16:02:30.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Motorola’s 2024 Razr Plus is a damn fun flip phone with the same old flaws",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-07-10T16:03:17.424Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "OpenAI and Arianna Huffington are working together on an ‘AI health coach’",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-10T16:03:25.747Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "DOJ seizes ‘bot farm’ operated by the Russian government",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-10T16:03:33.642Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "You can now protect your high-risk Google account with just your phone",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-12T13:39:03.198Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Salman on Post from shell",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-12T16:15:02.097Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by john on DOJ seizes ‘bot farm’ operated by the Russian government",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-12T16:15:02.351Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Comment by Watt on DOJ seizes ‘bot farm’ operated by the Russian government",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-12T16:15:02.597Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comment by Watt on DOJ seizes ‘bot farm’ operated by the Russian government",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-12T17:07:47.985Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "DOJ seizes ‘bot farm’ operated by the Russian government",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-12T17:32:43.494Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "An introduction to the Django ORM",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-12T17:33:56.375Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Introduction to Django ORM Module",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-12T17:35:22.059Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Django Templates: Built-In Tags and Filters",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-12T17:35:31.172Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "An introduction to the Django ORM",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-12T17:35:40.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Jake in the box",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-12T17:35:51.844Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Post from shell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-07-12T17:35:58.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Jake in the box",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-07-12T17:36:03.993Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Post from shell",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-07-12T19:31:12.355Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Using Markdown to enhance user experience",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-07-12T19:32:25.657Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Using Markdown to enhance user experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-07-12T19:32:49.594Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Using Markdown to enhance user experience",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-07-13T06:41:14.173Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$NFtue7aUumdQABUisIHJoF$A82GH72uJB3uD8oFZCS4P1VmNOq5+yaNUXI61k+wmNQ=",
+    "last_login": "2024-07-10T15:46:14.378Z",
+    "is_superuser": true,
+    "username": "salman",
+    "first_name": "",
+    "last_name": "",
+    "email": "salman@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-10T12:29:57.875Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$03SLRhUvgP7hwr4bWPBg9P$vuxoBOyx3WyOn1R0o64TPTTQPv0ttUXALA8FDcXcO3g=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "jake",
+    "first_name": "",
+    "last_name": "",
+    "email": "jake@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-12T10:23:02.606Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gfx9p1omklmgyh0vio6f9tkiobj1nmwr",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnrXxwo6XMGa-1d4wCypTipEHeHSCmgfTPzXiLgtpawdV7CTOIilDj9bhHTg-sO6I711mRqdV3mKHdFHrTLqRE_r4f7d1Cwl289AHO2PDoYlTcUnTGRAHNGz56T0jaBxwhWnx04oyCiAUXs2A5GKxLvD-jYN6s:1sRZWI:B92JanFoRQEzpyiMAtvvt7SfZIGCOMbNix1ov5V-kMc",
+    "expire_date": "2024-07-24T15:46:14.555Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "security",
+    "slug": "security"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "google",
+    "slug": "google"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "phone",
+    "slug": "phone"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "iphone",
+    "slug": "iphone"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "twitter",
+    "slug": "twitter"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "russia",
+    "slug": "russia"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "orm",
+    "slug": "orm"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "ruby",
+    "slug": "ruby"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "html",
+    "slug": "html"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "template",
+    "slug": "template"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "test",
+    "slug": "test"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "trash",
+    "slug": "trash"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 15,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 16,
+  "fields": {
+    "name": "formatting",
+    "slug": "formatting"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 13,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 14,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 13,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 15,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "You can now protect your high-risk Google account with just your phone",
+    "slug": "you-can-now-protect-your-high-risk-google-account-with-just-your-phone",
+    "author": 1,
+    "body": "Google has made it a little easier for those at more risk of targeted online attacks to enroll in its Advanced Protection Program for Google accounts. Now users can set it up with a single passkey — using the built-in biometric authentication of a Pixel phone or iPhone — instead of the two physical security keys the company previously required.\r\n\r\nThe Advanced Protection Program is aimed not at normal users but people like those working on political campaigns or journalists with sensitive information to protect. When it launched, the company required two physical security keys to activate it, and one of those keys plus a password to log in after that.",
+    "publish": "2024-07-10T15:49:03Z",
+    "created": "2024-07-10T15:49:34.597Z",
+    "updated": "2024-07-10T16:03:33.636Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "DOJ seizes ‘bot farm’ operated by the Russian government",
+    "slug": "doj-seizes-bot-farm-operated-by-the-russian-government",
+    "author": 1,
+    "body": "The Department of Justice announced on Tuesday that it seized two domain names and more than 900 social media accounts it claims were part of an “AI-enhanced” Russian bot farm. Many of the accounts were designed to look like they belonged to Americans and posted content about the Russia-Ukraine war, including videos in which Russian President Vladimir Putin justified Russia’s invasion of Ukraine. \r\n\r\nThe Justice Department claims that an employee of RT — Russia’s state media outlet — was behind the bot farm. RT’s leadership signed off on a plan to use the bot farm to “distribute information on a wide-scale basis,” amplifying the publication’s reach on social media,” an FBI agent alleged in an affidavit. To set up the bot farm, the employee bought two domain names from Namecheap, an Arizona-based company, that were then used to create two email servers, the affidavit claims. The servers were then used to create 968 email addresses, which were in turn used to set up social media accounts, according to the affidavit and the DOJ.",
+    "publish": "2024-07-10T15:56:26Z",
+    "created": "2024-07-10T15:57:02.717Z",
+    "updated": "2024-07-12T17:07:47.918Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "OpenAI and Arianna Huffington are working together on an ‘AI health coach’",
+    "slug": "openai-and-arianna-huffington-are-working-together-on-an-ai-health-coach",
+    "author": 1,
+    "body": "AI leaders are increasingly optimistic about the technology’s potential in the health sector, especially when it comes to personalized bots that can comprehend and address individual health concerns.\r\n\r\nOpenAI and Arianna Huffington are now jointly funding the development of an “AI health coach” through Thrive AI Health. In a Time magazine op-ed, OpenAI CEO Sam Altman and Huffington stated that the bot will be trained on “the best peer-reviewed science” alongside “the personal biometric, lab, and other medical data you’ve chosen to share with it.”\r\n\r\nThe company tapped DeCarlos Love, a former Google executive who previously worked on Fitbit and other wearables, to be CEO. Thrive AI Health also established research partnerships with several academic institutions and medical centers like Stanford Medicine, the Rockefeller Neuroscience Institute at West Virginia University, and the Alice L. Walton School of Medicine. (The Alice L. Walton Foundation is also a strategic investor in Thrive AI Health.)",
+    "publish": "2024-07-10T15:58:48Z",
+    "created": "2024-07-10T15:59:17.078Z",
+    "updated": "2024-07-10T16:03:17.422Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Motorola’s 2024 Razr Plus is a damn fun flip phone with the same old flaws",
+    "slug": "motorolas-2024-razr-plus-is-a-damn-fun-flip-phone-with-the-same-old-flaws",
+    "author": 1,
+    "body": "Sure, phones are amazing little computers. For $999, which is what the Razr Plus costs, they should be. But they’re mature products — tools rather than objects of delight — and for the most part, they’ve blended into the background noise of our lives. But the Razr Plus is different, and not just because it folds in half.\r\n\r\nI’ll give you an example: one of the background options for the media controls on the cover screen is a turntable. When music is playing, the record spins with one of the camera cutouts at the center. Press pause and the needle will lift off the record and stop. Are you kidding me? That’s adorable. \r\n\r\nThere’s so much I like about the Razr Plus that the disappointments sting a little more than if this was just any old slab-style phone. The cover screen is incredibly handy — even more so this year with some helpful UI improvements. It comes with an IPX8 rating, significantly upgrading its water resistance. And improvements to the hinge this time around make the crease all but disappear when you’re using the inner screen. Important stuff! But meaningful improvements and moments of delight don’t quite outweigh the Razr Plus’ shortcomings in the long run.\r\n\r\nIf you’re new to modern flip phones, let me give you the elevator pitch: big phone inside, small phone outside. With the phone flipped open, you have a normal smartphone with a big screen that does all the typical stuff. But when you close it, the cover screen almost acts like a second phone so you can get basic things done like check notifications and respond to texts without opening up your phone and coming face to face with everything on the big screen. Personally, I love ‘em.",
+    "publish": "2024-07-10T16:01:47Z",
+    "created": "2024-07-10T16:02:30.252Z",
+    "updated": "2024-07-10T16:02:30.252Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Post from shell",
+    "slug": "post-from-shell",
+    "author": 1,
+    "body": "To create a post from shell use the Model of the Object",
+    "publish": "2024-07-12T10:21:25Z",
+    "created": "2024-07-12T10:21:30.950Z",
+    "updated": "2024-07-12T17:36:03.989Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Jake in the box",
+    "slug": "jake-box",
+    "author": 2,
+    "body": "Jake in the box is a fast food restraunt",
+    "publish": "2024-07-12T10:25:10Z",
+    "created": "2024-07-12T10:28:26.893Z",
+    "updated": "2024-07-12T17:35:58.926Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "An introduction to the Django ORM",
+    "slug": "an-introduction-to-the-django-orm",
+    "author": 2,
+    "body": "One of the most powerful features of Django is its Object-Relational Mapper (ORM), which enables you to interact with your database, like you would with SQL. In fact, Django's ORM is just a pythonical way to create SQL to query and manipulate your database and get results in a pythonic fashion. Well, I say just a way, but it's actually really clever engineering that takes advantage of some of the more complex parts of Python to make developers' lives easier.\r\n\r\nBefore we start looking into how the ORM works, we need a database to manipulate. As with any relational database, we need to define a bunch of tables and their relationships (i.e., the way they relate to each other). Let's use something familiar. For example, say we want to model a blog that has blog posts and authors. An author has a name. An author can have many blog posts. A blog post can have many authors and has a title, content, and a published date.",
+    "publish": "2024-07-12T17:31:38Z",
+    "created": "2024-07-12T17:32:43.469Z",
+    "updated": "2024-07-12T17:35:31.162Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Introduction to Django ORM Module",
+    "slug": "introduction-to-django-orm-module",
+    "author": 1,
+    "body": "Django ORM (Object-Relational Mapping) module is a feature of the Django web framework that enables developers to interact with databases using high-level object-oriented APIs instead of writing SQL queries directly. The ORM maps database tables to Python classes and database records to instances of those classes, allowing developers to work with database records as if they were regular Python objects.\r\n\r\nDjango ORM was first introduced in version 0.90 of the Django web framework in 2006. The original implementation was based on the ORM used in the Ruby on Rails framework, but it has since evolved into a robust and flexible module that supports a wide range of database backends.",
+    "publish": "2024-07-12T17:32:44Z",
+    "created": "2024-07-12T17:33:56.361Z",
+    "updated": "2024-07-12T17:33:56.361Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Django Templates: Built-In Tags and Filters",
+    "slug": "django-templates-built-in-tags-and-filters",
+    "author": 2,
+    "body": "Django is a powerful framework for creating web applications in Python. Its features include database models, routing URLs, authentication, user management, administrative tools, and a template language. You can compose reusable HTML that changes based on the data you pass to the template language. Django templates use tags and filters to define a mini-language that’s similar to Python—but isn’t Python.\r\n\r\nYou’ll get to know Django templates through the tags and filters you use to compose reusable HTML.\r\n\r\nIn this tutorial, you’ll learn how to:\r\n\r\nWrite, compile, and render a Django template\r\nUse the render() shortcut in views to quickly use templates\r\nUse template tags for conditionals and loops in your templates\r\nCreate reusable templates with inheritance and inclusion\r\nModify the presentation of your data through template filters",
+    "publish": "2024-07-12T17:34:46Z",
+    "created": "2024-07-12T17:35:22.045Z",
+    "updated": "2024-07-12T17:35:22.045Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Using Markdown to enhance user experience",
+    "slug": "using-markdown-to-enhance-user-experience",
+    "author": 1,
+    "body": "This is a post formatted with markdown \r\n--------------------------------------------\r\n*This is emphasized* and **This is more emphasized**\r\n\r\nUsing a list with bullet points :\r\n\r\n* One\r\n* Three\r\n* Five \r\n* Seven\r\n\r\nLink to [somewhere](https://youtube.com)",
+    "publish": "2024-07-12T19:28:37Z",
+    "created": "2024-07-12T19:31:12.162Z",
+    "updated": "2024-07-12T19:32:49.569Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 5,
+    "name": "Salman",
+    "email": "salmansyyd12@gmail.com",
+    "body": "This is a great post.",
+    "created": "2024-07-12T13:39:03.191Z",
+    "updated": "2024-07-12T13:39:03.191Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 2,
+    "name": "john",
+    "email": "john@gmail.com",
+    "body": "This is so true, I've seen those bots in action.",
+    "created": "2024-07-12T15:59:48.527Z",
+    "updated": "2024-07-12T15:59:48.528Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 2,
+    "name": "Watt",
+    "email": "watt@gmail.com",
+    "body": "True true",
+    "created": "2024-07-12T16:06:15.440Z",
+    "updated": "2024-07-12T16:06:15.441Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 8,
+    "name": "Salman",
+    "email": "salmansyyd12@gmail.com",
+    "body": "I've had used SQLAlchemy that ain't this complex",
+    "created": "2024-07-12T19:04:06.621Z",
+    "updated": "2024-07-12T19:04:06.621Z",
+    "active": true
+  }
+}
+]
