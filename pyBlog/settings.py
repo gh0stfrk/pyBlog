@@ -16,9 +16,9 @@ from decouple import config
 # Email C0nf
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
-DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER', '')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', '')
+DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL', '')
 EMAIL_USE_TLS = True
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -96,11 +96,11 @@ DATABASES = {
     # }
     "default":{
         "ENGINE":'django.db.backends.postgresql',
-        "NAME":config('DB_NAME'),
-        "USER":config('DB_USER'),
-        "PASSWORD":config('DB_PASSWORD'),
-        "HOST":config('DB_HOST'),
-        "PORT":config('DB_PORT')
+        "NAME":config('DB_NAME', ''),
+        "USER":config('DB_USER', ''),
+        "PASSWORD":config('DB_PASSWORD', ''),
+        "HOST":config('DB_HOST', ''),
+        "PORT":config('DB_PORT', '')
     }
 }
 
