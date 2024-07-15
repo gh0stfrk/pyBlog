@@ -4,15 +4,17 @@ version: '3.8'
 
 services:
   db:
+    container_name: postgres_pyblog
     image: postgres
     environment:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password  # Set your PostgreSQL password here
     ports:
-      - "5432:5432"
+      - "5439:5432"
 
   web:
+    container_name: django_pyblog
     build:
       context: .
       dockerfile: Dockerfile
