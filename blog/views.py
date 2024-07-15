@@ -14,6 +14,7 @@ from django.db.models import Count
 from taggit.models import Tag
 
 from blog.models import Post
+from blog.utils import send_recommendation_email
 from blog.forms import EmailPostForm, CommentForm, SearchForm
 
 
@@ -87,13 +88,13 @@ def post_share(request: HttpRequest, post_id: int):
             # Send email
             cd = form.cleaned_data
             post_url = request.build_absolute_uri(post.get_absolute_url())
-            subject = f"{cd['name']} recommends you read {post.title}"
-            message = f"Read {post.title} at {post_url}\n\n {cd['name']}'s comments: {cd['comments']}"
-            send_mail(
-                subject=subject,
-                message=message,
-                from_email=None,
-                recipient_list=[cd["to"]],
+            send_recommendation_email(
+                post_title=post.title,
+                recommender_name=cd["name"],
+                recommender_email=cd["email"],
+                post_url=post_url,
+                recipient_email=cd["to"],
+                comments=cd["comments"],
             )
             sent = True
 

@@ -17,6 +17,7 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from django.shortcuts import redirect
 from django.contrib.sitemaps.views import sitemap
 
 from blog.sitemaps import PostSitemap
@@ -28,6 +29,7 @@ sitemaps = {
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("blog/", include('blog.urls', namespace='blog')),
+    path('', lambda request: redirect('blog:post_list'), name="redirect_to_blog"),
     path(
         'sitemap.xml',
         sitemap,

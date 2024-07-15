@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reading Recommendation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 40px;
+            border: 1px solid #dddddd;
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007bff;
+            color: white;
+            border-radius: 20px;
+        }
+        .header img {
+            max-width: 100px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007bff;
+            color: white;
+            font-size: 12px;
+            border-radius: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 16px;
+            color: rgb(74, 105, 245);
+            background-color: #f8fbff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.445);
+        }
+        .btn:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        .comments {
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #007bff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b0/Book_and_Quill_JE1_BE1.png/revision/latest?cb=20190530235532" alt="Book and Quill">
+            <h1>PyBlog</h1>
+            <p>The home of knowledge</p>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h2>Reading Recommendation</h2>
+            <p>Hi there,</p>
+            <p><strong>{{ recommender_name }}</strong> (<a href="mailto:{{ recommender_email }}">{{ recommender_email }}</a>) has recommended an article for you to read on <strong>PyBlog</strong></p>
+            <h3>{{ post_title }}</h3>
+            <a href="{{ post_url }}" class="btn">Read the Article</a>
+            <p>We hope you enjoy the read!</p>
+
+            <!-- Comments Section -->
+            {% if comments %}
+            <div class="comments">
+                <h4>Comments by {{ recommender_name }}</h4>
+                <p>{{ comments }}</p>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; {{ year }} PyBlog. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

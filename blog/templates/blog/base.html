@@ -8,7 +8,7 @@
     <title>{% block title %}{% endblock %}</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" href="{% static 'logo.svg' %}" type="svg">
     <style>
         /* Additional custom styles can be added here if needed */
     </style>
@@ -25,7 +25,7 @@
                 <a href="{% url 'blog:post_list' %}" class="text-blue-500 hover:text-blue-700">PyBlog</a>
             </h2>
             <p class="text-gray-600 mb-4">
-                This is my blog. I'm Salman, and I write interesting posts about technology, Python, and Django.
+                Welcome to PyBlog! I'm Salman, a passionate writer and developer. Here, you'll find engaging and insightful posts about the latest in technology, Python programming, and Django development. Join me as I explore and share my knowledge on these fascinating topics.
             </p>
             <p class="text-gray-600 mb-4">
                 I've written {% total_posts %} posts so far.
@@ -84,19 +84,19 @@
     <footer class="bg-blue-500 text-white text-center p-4">
         <div class="flex justify-center space-x-4 mb-4">
             <!-- GitHub Link -->
-            <a href="https://github.com/your-github-account" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/gh0stfrk" target="_blank" rel="noopener noreferrer"
                class="text-white hover:text-gray-200">
                 <i class="fab fa-github-square fa-2x"></i>
             </a>
     
             <!-- Twitter Link -->
-            <a href="https://twitter.com/your-twitter-account" target="_blank" rel="noopener noreferrer"
+            <a href="https://twitter.com/gh0stfrk" target="_blank" rel="noopener noreferrer"
                class="text-white hover:text-gray-200">
                 <i class="fab fa-twitter-square fa-2x"></i>
             </a>
     
             <!-- Gmail Link -->
-            <a href="mailto:your-email@gmail.com" class="text-white hover:text-gray-200">
+            <a href="mailto:salmansyyd12@gmail.com" class="text-white hover:text-gray-200">
                 <i class="fas fa-envelope-square fa-2x"></i>
             </a>
 
